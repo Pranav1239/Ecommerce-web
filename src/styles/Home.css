@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+  background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/* 
+  .parallax-remove-scrollbar {
+	-webkit-scrollbar-display: none !important;
+	scrollbar-width: 0 !important;
+	overflow: hidden !important;
+} */
+
+.parallax::-webkit-scrollbar{
+    display: none;
+}
+
+.container-Main{
+    display: flex;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+}
+
+
+.fitem-Main{
+    width: 800px;
+    height: 100vh;
+    background-color: transparent;
+    margin: 1.5rem;
+    margin-left: 4rem;
+}
+
+.fitem-Main img{
+    position: relative;
+    animation: moveUpDown 2s infinite;
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+        top: 0;
+    }
+    50% {
+        top: 20px;
+    }
+}
+
+.fitem-Main h1{
+    margin-top: 5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: white;
+    font-size: 3.5rem;
+    /* margin-top: 4rem; */
+}
+
+.fitem-Main h1:hover{
+    color: green;
+    transition: 1s;
+}
+
+.fitem-Main p{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.fitem-Main span{
+    color: green;
+}
+
+.fitem-Main span:hover{
+    color: white;
+    transition: 1s;
+}
+
+.container-smain{
+    display: flex;
+    background-image: url(../assests/Res_result.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.fitem-smain{
+    width: 1000px;
+    height: 100vh;
+}
+
+.fitem-smain h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: white;
+    font-size: 4.2rem;
+    text-align: center;
+}
+
+.fitem-smain h1:hover{
+    color: green;
+    transition: 1s;
+}
+
+.fitem-smain p{
+    margin-top: 2rem;
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.fitem-smain span{
+    color: green;
+}
+
+.fitem-smain span:hover {
+    color: white;
+    transition: 1s;
+}

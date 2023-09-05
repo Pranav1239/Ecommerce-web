@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+.contact{
+    background-image: url(../assests/image.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.title-contact{
+    font-size: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.title-contact h1{
+    margin-left: 8rem;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.title-contact span{
+        color: green;
+        text-decoration: underline;
+}
+
+/* 
+.parragh-contact{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.parragh-contact p{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+} 
+.parragh-contact span{
+    color: green;
+}*/
+
+#name{
+    width: 40%;
+    padding: 12px;
+    border: 2px solid green; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    background-color: transparent;
+    color: white;
+}
+
+#gmail{
+    width: 40%;
+    padding: 12px;
+    border: 2px solid green; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    background-color: transparent;
+    color: white;
+}
+
+#subject{
+    width: 40%;
+    padding: 12px;
+    border: 2px solid green; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    background-color: transparent;
+    color: white;
+}
+
+#submit {
+    padding: 8px 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #submit:hover {
+    background-color: #60d568;
+  }
+
+.Form-container {
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 20px;
+    border: none;
+  }
+

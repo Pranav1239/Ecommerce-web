@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+  
+  header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(24, 23, 23, 0.3);
+      padding: 10px 20px;
+      position: sticky;
+  }
+  
+  
+  .Navbar{
+      list-style-type: none;
+  }
+  
+  .Navbar li {
+      display: inline-block;
+      padding: 0px 20px;
+      margin-top: 0.2rem;
+  }
+  
+  .Navbar li a {
+      text-decoration: none;
+      color: green;
+      font-weight: 700;
+      padding: 20px;
+      font-family: sans-serif;
+      font-size: 1.1rem;
+  
+  }
+  
+  .Navbar li a:hover{
+      text-decoration: underline 2px rgba(186, 186, 186, 0.3);
+      transition: 0.70s;
+  }
+
+  li{
+    list-style: none;
+  }
+
+  #Cart{
+    font-size: 1.5rem;
+    color: green;
+    list-style-type: none;
+  }
+
+  #Login{
+    font-size: 1.5rem;
+    color: green;
+    list-style-type: none;
+    margin: 2rem;
+  }

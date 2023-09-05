@@ -1,0 +1,54 @@
+.card-cart{
+  display: flex;
+  background-color: #333;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 2rem;
+}
+
+.img-cart{
+  width: 200px;
+  height: 150px;
+}
+
+.img-cart img{
+  width: 100%;
+  margin-right: 2rem;
+}
+
+.h2-cart{
+  width: 300px;
+  height: 150px;
+  background-color: transparent;
+}
+
+.h2-cart h2{
+  font-family: sans-serif;
+    font-size: 2rem;
+    color: white;
+    margin-top: 3rem;
+    margin-left: 4rem;
+}
+
+.p-cart{
+  width: 300px;
+  height: 150px;
+  background-color: transparent;
+}
+
+.p-cart p{
+  width: 14rem;
+  color: white;
+  margin-top: 2rem;
+  text-align: center;
+  margin-right: 4rem;
+}
+
+.btn-cart{
+  width: 300px;
+  height: 150px;
+}
+
+.btn-cart button{
+  margin-top: 3rem;
+}
